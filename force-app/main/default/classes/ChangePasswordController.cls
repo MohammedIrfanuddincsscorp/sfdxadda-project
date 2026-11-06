@@ -1,4 +1,5 @@
-/**I have modifed in Vscode and push to github it directly get push to SF production org.
+/**I have modified the apex class passwordcontroller in DeveloperOrg directly and pull in vscode.
+ * but directly deployed from vscode without pushing it to github
  * An apex page controller that exposes the change password functionality
  */
 public with sharing class ChangePasswordController {
