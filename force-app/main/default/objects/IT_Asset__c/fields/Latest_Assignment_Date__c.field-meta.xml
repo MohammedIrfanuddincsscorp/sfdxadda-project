@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latest_Assignment_Date__c</fullName>
+    <label>Latest Assignment Date</label>
+    <summarizedField>Asset_Assignment__c.Assignment_Date__c</summarizedField>
+    <summaryForeignKey>Asset_Assignment__c.IT_Asset__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

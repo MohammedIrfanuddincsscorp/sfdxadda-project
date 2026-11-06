@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Critical_Request_Requires_Approval</fullName>
+    <active>true</active>
+    <description>Prevents a Critical IT Request from being saved unless it is approved.</description>
+    <errorConditionFormula>AND
+	(  
+	    ISPICKVAL( Priority__c,&quot;Critical&quot;),
+     NOT(Approved__c ) 	
+		)</errorConditionFormula>
+    <errorDisplayField>Approved__c</errorDisplayField>
+    <errorMessage>Critical IT Requests must be approved before saving.</errorMessage>
+</ValidationRule>

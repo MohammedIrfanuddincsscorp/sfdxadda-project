@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documents_del__c</fullName>
+    <label>Documents</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Married_Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Marriage certificate</fullName>
+                <default>false</default>
+                <label>Marriage certificate</label>
+            </value>
+            <value>
+                <fullName>pan card</fullName>
+                <default>false</default>
+                <label>pan card</label>
+            </value>
+            <value>
+                <fullName>voter id</fullName>
+                <default>false</default>
+                <label>voter id</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>unchecked</controllingFieldValue>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>pan card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>unchecked</controllingFieldValue>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>voter id</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Marriage certificate</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

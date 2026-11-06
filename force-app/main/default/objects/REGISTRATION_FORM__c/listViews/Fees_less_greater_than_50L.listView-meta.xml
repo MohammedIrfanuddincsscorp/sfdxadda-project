@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fees_less_greater_than_50L</fullName>
+    <columns>NAME</columns>
+    <columns>Amount__c</columns>
+    <columns>Student_Name__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>City__c</field>
+        <operation>equals</operation>
+        <value>Hyd</value>
+    </filters>
+    <label>Fees less greater than 50L</label>
+</ListView>

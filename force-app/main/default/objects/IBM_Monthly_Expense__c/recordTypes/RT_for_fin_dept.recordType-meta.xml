@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RT_for_fin_dept</fullName>
+    <active>true</active>
+    <label>RT for fin dept</label>
+    <picklistValues>
+        <picklist>Allowed_Expense__c</picklist>
+        <values>
+            <fullName>sales tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>service tax</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

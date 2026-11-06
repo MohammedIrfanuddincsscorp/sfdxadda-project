@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>modification_field</fullName>
+    <active>true</active>
+    <description>doesn&apos;t allow modification</description>
+    <errorConditionFormula>And(ISPICKVAL(PRIORVALUE( Country_Name__c ), &apos;India&apos;), (ISPICKVAL(  Country_Name__c , &apos;dubai&apos;) ))</errorConditionFormula>
+    <errorMessage>wrong data</errorMessage>
+</ValidationRule>

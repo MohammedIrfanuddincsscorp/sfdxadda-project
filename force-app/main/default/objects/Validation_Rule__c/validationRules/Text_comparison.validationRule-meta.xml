@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Text_comparison</fullName>
+    <active>true</active>
+    <errorConditionFormula>if(And(TEXT( City__c ) =&apos;Hyderabad&apos;, ISBLANK(   Last_Name__c )),true,false)</errorConditionFormula>
+    <errorMessage>correct picklist</errorMessage>
+</ValidationRule>

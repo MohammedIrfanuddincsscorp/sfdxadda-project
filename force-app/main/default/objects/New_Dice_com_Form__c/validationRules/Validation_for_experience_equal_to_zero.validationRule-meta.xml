@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_experience_equal_to_zero</fullName>
+    <active>true</active>
+    <errorConditionFormula>(Experience__c &lt;=  3  ||  Experience__c &gt;20 ) 
+&amp;&amp; 
+  
+ 
+( ISPICKVAL( Preferred_country__c , &apos;India&apos;)
+ &amp;&amp; 
+    $User.Username &lt;&gt;  &apos;training42020@gmail.com&apos;)</errorConditionFormula>
+    <errorMessage>Experience should not less than 4 or above 20 years and salary expected should not be above 10k</errorMessage>
+</ValidationRule>
